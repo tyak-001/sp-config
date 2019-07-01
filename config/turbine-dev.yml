@@ -4,7 +4,11 @@ spring:
     
 server:
   port: 5001
-  
+  rabbitmq:
+    host: 192.168.200.131
+    port: 15672
+    username: admin
+    password: admin
 eureka:
   client:
     service-url:
