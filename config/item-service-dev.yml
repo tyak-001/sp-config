@@ -15,7 +15,7 @@ spring:
   profiles: item1
   rabbitmq:
     host: 192.168.200.131
-    port: 15672
+    port: 5672
     username: admin
     password: admin
 server:
@@ -25,7 +25,7 @@ spring:
   profiles: item2
   rabbitmq:
     host: 192.168.200.131
-    port: 15672
+    port: 5672
     username: admin
     password: admin
 server:
